@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "encender luces",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ActivaLucesIntent",
+                    "slots": [],
+                    "samples": [
+                        "luces",
+                        "prende luces",
+                        "enciende luces",
+                        "prende las luces",
+                        "enciende las luces",
+                        "prende la luz",
+                        "prende el foco",
+                        "prende el bombillo",
+                        "enciende la luz",
+                        "apaga la luz",
+                        "apaga las luces",
+                        "apaga el foco",
+                        "apaga el bombillo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
